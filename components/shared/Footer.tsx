@@ -22,7 +22,7 @@ export default function Footer() {
               <input 
                 type="email" 
                 placeholder="Enter your email" 
-                className="flex-1 w-full px-6 py-3.5 border border-gray-300 rounded-full outline-none focus:border-gray-400 text-sm placeholder:text-gray-400"
+                className="flex-1 w-full px-6 py-3.5 border border-gray-300 rounded-full outline-none focus:border-gray-400 text-sm placeholder:text-gray-400 text-black"
               />
               <button className="bg-[#ccff00] text-black px-10 py-3.5 rounded-full font-semibold text-sm hover:bg-[#b3e600] transition-colors w-full sm:w-auto">
                 Search
@@ -39,29 +39,29 @@ export default function Footer() {
             
             {/* Column 1 */}
             <div className="flex flex-col gap-5 text-sm text-gray-600">
-              <Link href="/" className="hover:text-black transition-colors">Featured Courses</Link>
-              <Link href="/" className="hover:text-black transition-colors">Featured Categories</Link>
-              <Link href="/" className="hover:text-black transition-colors">Business</Link>
-              <Link href="/" className="hover:text-black transition-colors">IT</Link>
-              <Link href="/" className="hover:text-black transition-colors">Design</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Featured Courses</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Featured Categories</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Business</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">IT</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Design</Link>
             </div>
             
             {/* Column 2 */}
             <div className="flex flex-col gap-5 text-sm text-gray-600">
-              <Link href="/" className="hover:text-black transition-colors">Development</Link>
-              <Link href="/" className="hover:text-black transition-colors">Marketing</Link>
-              <Link href="/" className="hover:text-black transition-colors">Photography</Link>
-              <Link href="/" className="hover:text-black transition-colors">Finance</Link>
-              <Link href="/" className="hover:text-black transition-colors">Sport</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Development</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Marketing</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Photography</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Finance</Link>
+              <Link href="/courses/1" className="hover:text-black transition-colors">Sport</Link>
             </div>
 
-            {/* Column 3 */}
+            {/* Column 3 - Linked to /creators to trigger the 404 error page */}
             <div className="flex flex-col gap-5 text-sm text-gray-600">
-              <Link href="/" className="hover:text-black transition-colors">Become a Creator</Link>
-              <Link href="/" className="hover:text-black transition-colors">Affiliate Program</Link>
-              <Link href="/" className="hover:text-black transition-colors">Contact</Link>
-              <Link href="/" className="hover:text-black transition-colors">Help</Link>
-              <Link href="/" className="hover:text-black transition-colors">About</Link>
+              <Link href="/creators" className="hover:text-black transition-colors">Become a Creator</Link>
+              <Link href="/creators" className="hover:text-black transition-colors">Affiliate Program</Link>
+              <Link href="/creators" className="hover:text-black transition-colors">Contact</Link>
+              <Link href="/creators" className="hover:text-black transition-colors">Help</Link>
+              <Link href="/creators" className="hover:text-black transition-colors">About</Link>
             </div>
 
           </div>
@@ -69,12 +69,12 @@ export default function Footer() {
         
         {/* Bottom Section - Copyright & Legal */}
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-gray-200 text-xs text-gray-600 gap-4">
-          <p>@ 2023 ByteSpace. All rights reserved.</p>
+          <p>© 2026 ByteSpace. All rights reserved.</p>
           
           <div className="flex items-center gap-8">
-            <Link href="/" className="hover:text-black transition-colors">Privacy Policy</Link>
-            <Link href="/" className="hover:text-black transition-colors">Terms of Service</Link>
-            <Link href="/" className="hover:text-black transition-colors">Cookies Settings</Link>
+            <Link href="/creators" className="hover:text-black transition-colors">Privacy Policy</Link>
+            <Link href="/creators" className="hover:text-black transition-colors">Terms of Service</Link>
+            <Link href="/creators" className="hover:text-black transition-colors">Cookies Settings</Link>
           </div>
         </div>
 
