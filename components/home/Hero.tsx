@@ -144,7 +144,8 @@ export default function Hero() {
               4.5 (240) <span className="text-[#ccff00]">★</span>
             </div>
             <div className="mt-2 flex items-center">
-              {["/Ellipse1.png", "/Ellipse2.png", "/Ellipse3.png"].map((src, i) => (
+              {/* Changed the images here to your student files */}
+              {["/student1.png", "/student2.png", "/student3.png", "/student4.png"].map((src, i) => (
                 <div key={i} className="relative -ml-2 h-9 w-9 overflow-hidden rounded-full border-2 border-white bg-gray-200 first:ml-0">
                   <Image src={src} alt="Student" fill className="object-cover" />
                 </div>
